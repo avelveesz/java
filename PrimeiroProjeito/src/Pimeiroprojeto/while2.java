@@ -1,0 +1,55 @@
+package Pimeiroprojeto;
+
+import java.util.Scanner;
+
+public class while2 {
+
+	public static void main(String[] args) {
+	int contador = 1;
+	while(contador <= 5) {
+		System.out.println(contador);
+		contador++;//+1
+	}
+	System.out.println("--------------------");
+int cont = 5;
+while (cont >= 1) {
+	System.out.println(cont);
+	cont--;
+}
+System.out.println("--------------------");
+int c =0;
+while(c <= 10) {
+	System.out.println(c);
+	c +=2; //+2
+}
+System.out.println("--------------------");
+//soma os numeros informados pelo usuario
+Scanner sc = new Scanner(System.in);
+int contador2 = 1;
+int soma = 0;
+while(contador2 <= 5) {
+	System.out.println("digite o numero "+  contador2 + ":");
+	int numero = sc.nextInt();
+	soma = soma + numero;
+	contador2++;
+}
+System.out.println("A soma é:" + soma);
+System.out.println("--------------------");
+//enquanto digitar para "ficar" o codigo continua
+System.out.println("o que deseja? ");
+String texto = sc.next();
+while(texto.equalsIgnoreCase("ficar")) {
+	System.out.println("o que deseja");
+	texto = sc.next();
+
+System.out.println("saiu");
+System.out.println("----------------------");
+// quando o usuario digitar "sair" o codigo para 
+System.out.println("o que deseja?");
+String resposta = sc.next();
+	}
+System.out.println("voce saiu");
+	
+	
+}
+}

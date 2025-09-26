@@ -1,0 +1,36 @@
+package Pimeiroprojeto;
+
+import java.util.Scanner;
+
+public class lista16 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+	
+
+        int[] numeros12 = new int[12]; // vetor com 12 posições
+
+        for (int i = 0; i < 12; i++) {
+            System.out.print("Digite um número (" + (i + 1) + "): ");
+            numeros12[i] = sc.nextInt();
+            if (numeros12[i] < 50) {
+                System.out.println(numeros12[i] + " é menor que 50");
+            }
+	}
+		   int[] numeros = new int[10]; // vetor com 10 posições
+
+	        // leitura dos valores
+	        for (int i = 0; i < numeros.length; i++) {
+	            System.out.print("Digite o número " + (i + 1) + ": ");
+	            numeros[i] = sc.nextInt();
+	        }
+
+	        System.out.println("\nNúmeros pares digitados:");
+	        // exibição apenas dos pares
+	        for (int num : numeros) {
+	            if (num % 2 == 0) {
+	                System.out.println(num);
+	            }
+	        }	
+}
+}

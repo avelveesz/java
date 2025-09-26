@@ -1,0 +1,15 @@
+package Pimeiroprojeto;
+
+public class DoWhile3 {
+
+	public static void main(String[] args) {
+		int contador = 1;
+		do {
+			System.out.println(contador);
+			contador++; //+1
+		} while (contador <= 30);
+		//2 - Adivinhação de número
+		
+	}
+
+}

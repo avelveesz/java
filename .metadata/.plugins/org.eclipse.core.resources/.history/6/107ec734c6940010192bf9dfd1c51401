@@ -1,0 +1,24 @@
+package Pimeiroprojeto;
+
+import java.util.Scanner;
+
+public class For1 {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner (System.in);
+		for(int cont = 0; cont <= 30; cont++) {
+			System.out.println(cont);
+			}
+		//2 - Classificação de Idades
+		for(int idade = 1; idade <= 10; idade++) {
+			System.out.println("informe 10 idades?");
+			double salario = scanner.nextDouble();
+				if(salario <=18 ) {
+				System.out.println("menor de idade");
+				}else {
+					System.out.println("maior de idade");
+	}
+
+}
+}
+}

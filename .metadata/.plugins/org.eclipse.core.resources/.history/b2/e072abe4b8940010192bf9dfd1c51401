@@ -1,0 +1,29 @@
+package Pimeiroprojeto;
+
+import java.util.Scanner;
+
+public class DoWhile3 {
+
+	public static void main(String[] args) {
+		int contador = 1;
+		do {
+			System.out.println(contador);
+			contador++; //+1
+		} while (contador <= 30);
+		//2 - Adivinhação de número
+		Scanner scanner = new Scanner (System.in);
+		int idade;
+		int voltas = 1;
+		do {
+		System.out.println("Qual sua idade?");
+		idade = scanner.nextInt();
+		if (idade >= 18) {
+		System.out.println("Maior de idade");
+		} else {
+		System.out.println("Menor de idade");
+		}
+		voltas++; //+1
+		} while (voltas <= 3);
+	}
+
+}

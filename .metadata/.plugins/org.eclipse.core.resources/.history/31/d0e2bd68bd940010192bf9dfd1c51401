@@ -1,0 +1,31 @@
+package Pimeiroprojeto;
+
+import java.util.Scanner;
+
+public class DoWhile3 {
+
+	public static void main(String[] args) {
+		int contador = 1;
+		do {
+			System.out.println(contador);
+			contador++; //+1
+		} while (contador <= 30);
+		//2 - Adivinhação de número
+		Scanner scanner = new Scanner (System.in);
+		int idade;
+		do {
+		System.out.println("Qual o numero?");
+		idade = scanner.nextInt();
+		} while(idade != 5);
+		System.out.println("Acertou o numero");
+		//3 - Verificação de peso na mala
+		int peso;
+		do {
+		System.out.println("Qual o peso da mala?");
+		peso = scanner.nextInt();
+		if (peso <= 23) {
+		System.out.println("pesso dentro do limite");
+		} else {
+		System.out.println("passou do limite");
+		}
+		}

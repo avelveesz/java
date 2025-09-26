@@ -1,0 +1,17 @@
+package Pimeiroprojeto;
+
+public class For {
+
+	public static void main(String[] args) {
+		for(int cont = 0; cont <= 10; cont++) {
+			System.out.println(cont);
+
+			}
+
+			//Mostrando uma mensagem
+		for (int texto = 1; texto <= 3; texto++) {
+			System.out.println("Hoje é quinta");
+		}
+	}
+
+}

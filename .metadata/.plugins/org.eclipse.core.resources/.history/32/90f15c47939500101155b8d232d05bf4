@@ -1,0 +1,20 @@
+package Pimeiroprojeto;
+
+import java.util.Scanner;
+
+public class Arrailista {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+int [] idade = new int[5];  
+idade[0] =18; //0
+idade[1] = 27; //1
+idade[2] = 13; //2
+idade[3] = 50; //3
+idade[4] = 40; //4
+System.out.println(idade[3]);
+
+
+	}
+
+}
